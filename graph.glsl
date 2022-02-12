@@ -1,6 +1,6 @@
 
 /* Vertical scale, larger values will amplify output */
-#define VSCALE 200
+#define VSCALE 150
 /* Rendering direction, either -1 (outwards) or 1 (inwards). */
 #define DIRECTION -1
 
@@ -26,7 +26,7 @@
 
 /* Gravity step, overrude from `smooth_parameters.glsl` */
 /* #request setgravitystep 2.4 */
-#request setgravitystep 1.4
+#request setgravitystep 3.4
 
 /* Smoothing factor, override from `smooth_parameters.glsl` */
-#request setsmoothfactor 0.015
+#request setsmoothfactor 0.040
